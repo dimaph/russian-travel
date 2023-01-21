@@ -1,0 +1,10 @@
+.place__web-title {
+    margin: 0;
+    padding: 0 0 12px 0;
+    font-family: 'Inter', Arial, Sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
+

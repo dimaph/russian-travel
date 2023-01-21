@@ -1,0 +1,28 @@
+.cover__subtitle {
+    font-family: 'Inter', Arial, Sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 360px;
+    text-align: center;
+    z-index: 2;
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        font-size: calc(14px + ((100vw - 320px) * 0.00892857142));
+        line-height: 122%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        font-size: 4.375vw;
+        line-height: 114%;
+    }
+}

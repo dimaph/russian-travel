@@ -1,0 +1,11 @@
+.header__link_lang-ru {
+    width: 30px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+    .header__link_lang-ru {
+        width: 22px;
+    }
+    
+}

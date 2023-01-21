@@ -1,0 +1,25 @@
+.lead__container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 296px);
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .lead__container {
+        width: calc(100% - 96px);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .lead__container {
+        width: 100%
+    }
+    
+}
+    
+
+

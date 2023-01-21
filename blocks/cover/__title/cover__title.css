@@ -1,0 +1,29 @@
+.cover__title {
+    font-family: 'Inter', Arial, Sans-serif;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+    color: #FFFFFF;
+    max-width: 560px;
+    text-align: center;
+    z-index: 2;
+}
+
+.cover__title:hover ~ .cover__overlay {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        font-size: calc(32px + ((100vw - 320px) * 0.08928571428));
+        line-height: 106%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        font-size: 10vw;
+        line-height: 109%;
+    }
+    
+}

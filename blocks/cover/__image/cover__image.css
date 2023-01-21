@@ -1,0 +1,15 @@
+.cover__image {
+    padding: 0;
+    margin: 0;
+    background-image: url('../../../images/cover__background.jpg');
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 1184/740;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    text-decoration: none;
+    
+}
