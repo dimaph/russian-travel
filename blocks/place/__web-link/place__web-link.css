@@ -7,8 +7,9 @@
     font-weight: 400;
     color: #FFFFFF;
     text-decoration: underline;
+    transition: opacity .5s ease-in-out;
 }
 
 .place__web-link:hover {
-    opacity: 0.8;
+    opacity: 0.3;
 }

@@ -8,7 +8,7 @@
     color: #FFFFFF;
     max-width: 360px;
     text-align: center;
-    z-index: 2;
+    position: relative;
 }
 
 .cover__subtitle:hover ~ .cover__overlay {
