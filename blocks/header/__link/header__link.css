@@ -7,6 +7,9 @@
     font-weight: 400px;
     align-content: flex-end;
     display: block;
+    transition: opacity .5s ease-in-out;
+    text-decoration: none;
+    color: #FFF;
 }
 
 @media screen and (max-width: 320px) {
@@ -15,5 +18,10 @@
         line-height: 111%;
         padding-top: 5.625vw;
     }
+    
+}
+
+.header__link:hover {
+    opacity: .5;
     
 }

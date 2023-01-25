@@ -7,7 +7,7 @@
     box-sizing: border-box;
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 32px;
+    row-gap: 48px;
 }
 
 @media screen and (min-width: 768px) {

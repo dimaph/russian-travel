@@ -3,6 +3,7 @@
     margin: 0;
     background-image: url('../../../images/cover__background.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     aspect-ratio: 1184/740;
     display: flex;
@@ -21,6 +22,8 @@
     height: 100%;
     content: '';
     position: absolute;
+    top: 0px;
+    left: 0px;
     transition: opacity .5s ease-in-out;
 }
 

@@ -11,10 +11,6 @@
     position: relative;
 }
 
-.cover__subtitle:hover ~ .cover__overlay {
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 768px) {
     .cover__subtitle {
         font-size: calc(14px + ((100vw - 320px) * 0.00892857142));
